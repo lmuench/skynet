@@ -6,5 +6,5 @@ import "github.com/jinzhu/gorm"
 type Prototype struct {
 	gorm.Model
 	Name  string
-	Units []Unit `gorm:"foreignkey:PrototypeRefer"`
+	Units []Unit `gorm:"foreignkey:PrototypeID"`
 }

@@ -6,4 +6,5 @@ import "github.com/jinzhu/gorm"
 type Unit struct {
 	gorm.Model
 	PrototypeID uint
+	Health      int
 }
