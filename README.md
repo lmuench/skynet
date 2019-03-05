@@ -2,6 +2,7 @@
 ## Requirements
 * Go
 * PostgreSQL
+
 ## Getting started
 ### Prepare database
 1. Create a new `skynet_dev` database
@@ -13,6 +14,7 @@ export SKYNET_DEV_DB_DBNAME=skynet_dev
 export SKYNET_DEV_DB_USER=postgres
 export SKYNET_DEV_DB_PASSWORD=postgres
 ```
+
 ### Run app
 1. `git clone https://github.com/lmuench/skynet.git`
 2. `cd skynet`
@@ -30,5 +32,6 @@ export SKYNET_DEV_DB_PASSWORD=postgres
   }
 }
 ```
-### Admin Interface
+
+### Admin interface
 http://localhost:3030/admin
