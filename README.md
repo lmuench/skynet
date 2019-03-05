@@ -18,7 +18,7 @@ export SKYNET_DEV_DB_PASSWORD=postgres
 2. `cd skynet`
 3. Install all dependencies with `go get ./...`
 4. Start app with `go run cmd/skynet/main.go `
-5. Navigate your browser to `http://localhost:3030/graphiql/`
+5. Navigate your browser to http://localhost:3030/graphiql/
 6. Query data, e.g.
 ```
 {
@@ -30,3 +30,5 @@ export SKYNET_DEV_DB_PASSWORD=postgres
   }
 }
 ```
+### Admin Interface
+http://localhost:3030/admin
